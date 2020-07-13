@@ -7,14 +7,14 @@ jobs:
     runs-on: ubuntu-latest
     if: startsWith(github.event.issue.title, 'roll|')
     steps:
-      - uses: actions/checkout@v2
       - name: Set env vars
         run: |
           echo ::set-env name=REPOSITORY::${{ github.repository }}
           echo ::set-env name=EVENT_ISSUE_NUMBER::${{ github.event.issue.number }}
           echo ::set-env name=EVENT_USER_LOGIN::${{ github.event.issue.user.login }}
       - name: Roll For Initiative
-        uses: ./rollAction@v1
+      - uses: actions/checkout@v2
+      - uses: ./rollAction
         id: roll
         with:
           title: ${{ github.event.issue.title }}
