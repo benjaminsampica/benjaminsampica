@@ -1,4 +1,4 @@
-﻿name: 'Roll'
+﻿﻿name: 'Roll'
 description: 'Rolls for initiative'
 inputs:
   title:
