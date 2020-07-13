@@ -2,7 +2,7 @@
 const github = require('@actions/github');
 
 try {
-    const chosenClass = core.getInput('title');
+    const title = core.getInput('title');
     console.log(`Hello ${title}!`);
 } catch (error) {
     core.setFailed(error.message);
