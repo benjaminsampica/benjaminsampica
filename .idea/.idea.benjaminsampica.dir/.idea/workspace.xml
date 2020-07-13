@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c3a8f18-b177-4fcb-af80-ca4e709b18be" name="Default Changelist" comment="trying to get it to work">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/readme.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/readme.yml" afterDir="false" />
-    </list>
+    <list default="true" id="9c3a8f18-b177-4fcb-af80-ca4e709b18be" name="Default Changelist" comment="trying to get it to work" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594604798095</updated>
-      <workItem from="1594604801233" duration="5526000" />
+      <workItem from="1594604801233" duration="5889000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1594607927623</created>
@@ -134,7 +132,35 @@
       <option name="project" value="LOCAL" />
       <updated>1594610172700</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="trying to get it to work">
+      <created>1594610384565</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1594610384565</updated>
+    </task>
+    <task id="LOCAL-00010" summary="trying to get it to work">
+      <created>1594610429188</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1594610429188</updated>
+    </task>
+    <task id="LOCAL-00011" summary="trying to get it to work">
+      <created>1594610513946</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1594610513946</updated>
+    </task>
+    <task id="LOCAL-00012" summary="trying to get it to work">
+      <created>1594610612525</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1594610612525</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,9 +187,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="trying to get it to work" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="891" y="519" key="Vcs.Push.Dialog.v2" timestamp="1594610177218">
+    <state x="891" y="519" key="Vcs.Push.Dialog.v2" timestamp="1594610616179">
       <screen x="0" y="0" width="3840" height="1570" />
     </state>
-    <state x="891" y="519" key="Vcs.Push.Dialog.v2/0.0.3840.1570@0.0.3840.1570" timestamp="1594610177218" />
+    <state x="891" y="519" key="Vcs.Push.Dialog.v2/0.0.3840.1570@0.0.3840.1570" timestamp="1594610616179" />
   </component>
 </project>
