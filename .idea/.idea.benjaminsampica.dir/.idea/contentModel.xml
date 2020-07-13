@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Ben\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Ben\AppData\Local\JetBrains\Rider2020.2\javascript\typings\node\12.12.50\node_modules\@types" t="IncludeRecursive" />
+    <e p="C:\Users\Ben\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\ReSharperHost\v202\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Ben\AppData\Roaming\JetBrains\Rider2020.2\javascript\nodejs\12.16.1\core-modules" t="IncludeRecursive" />
+    <e p="C:\Users\Ben\AppData\Roaming\JetBrains\Rider2020.2\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\Ben\RiderProjects\benjaminsampica" t="IncludeFlat">
+      <e p="node_modules\@actions\core" t="IncludeRecursive" />
+      <e p="node_modules\@actions\github" t="IncludeRecursive" />
+      <e p="node_modules\@octokit\auth-token" t="IncludeRecursive" />
+      <e p="node_modules\@octokit\core" t="IncludeRecursive" />
+      <e p="node_modules\@octokit\endpoint" t="IncludeRecursive" />
+      <e p="node_modules\@octokit\graphql" t="IncludeRecursive" />
+      <e p="node_modules\@octokit\plugin-paginate-rest" t="IncludeRecursive" />
+      <e p="node_modules\@octokit\plugin-rest-endpoint-methods" t="IncludeRecursive" />
+      <e p="node_modules\@octokit\request" t="IncludeRecursive" />
+      <e p="node_modules\@octokit\request-error" t="IncludeRecursive" />
+      <e p="node_modules\@octokit\types" t="IncludeRecursive" />
+      <e p="node_modules\@types" t="IncludeRecursive" />
+      <e p="node_modules\before-after-hook" t="IncludeRecursive" />
+      <e p="node_modules\deprecation" t="IncludeRecursive" />
+      <e p="node_modules\is-plain-object" t="IncludeRecursive" />
+      <e p="node_modules\universal-user-agent" t="IncludeRecursive" />
+    </e>
+  </component>
+</project>

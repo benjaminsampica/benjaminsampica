@@ -1,0 +1,36 @@
+﻿on:
+  issues:
+    types: [opened]
+
+jobs:
+  roll_for_initiative:
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.issue.title, 'roll|')
+    steps:
+      - name: Set env vars
+        run: |
+          echo ::set-env name=REPOSITORY::${{ github.repository }}
+          echo ::set-env name=EVENT_ISSUE_NUMBER::${{ github.event.issue.number }}
+          echo ::set-env name=EVENT_USER_LOGIN::${{ github.event.issue.user.login }}
+      - name: Roll For Initiative
+        inputs:
+          class:
+            default: 'Warrior'
+        outputs:
+          roll:
+            default: '20'
+        runs:
+          using: 'node12'
+          main: 'index.js'
+      - name: Update Readme
+        inputs:
+          - 
+      - name: Commit roll
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - uses: test-room-7/action-update-file@v1.1.0
+        with:
+          file-path: README.md
+          commit-msg: '${{EVENT_USER_LOGIN}} rolled for initiative.'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+        
