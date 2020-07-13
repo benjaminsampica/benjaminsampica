@@ -22,7 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c3a8f18-b177-4fcb-af80-ca4e709b18be" name="Default Changelist" comment="trying to get it to work" />
+    <list default="true" id="9c3a8f18-b177-4fcb-af80-ca4e709b18be" name="Default Changelist" comment="trying to get it to work">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.benjaminsampica.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.benjaminsampica.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roll/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/roll/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +41,10 @@
         <option value="$PROJECT_DIR$/roll.yml" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/rollAction.yml" />
+        <option value="$PROJECT_DIR$/.github/actions/action.yml" />
+        <option value="$PROJECT_DIR$/roll/action.yml" />
         <option value="$PROJECT_DIR$/.github/workflows/readme.yml" />
+        <option value="$PROJECT_DIR$/roll/index.js" />
       </list>
     </option>
   </component>
@@ -74,7 +80,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594604798095</updated>
-      <workItem from="1594604801233" duration="5889000" />
+      <workItem from="1594604801233" duration="6313000" />
+      <workItem from="1594682777314" duration="316000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1594607927623</created>
@@ -160,13 +167,41 @@
       <option name="project" value="LOCAL" />
       <updated>1594610612525</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="trying to get it to work">
+      <created>1594610879020</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1594610879020</updated>
+    </task>
+    <task id="LOCAL-00014" summary="trying to get it to work">
+      <created>1594610925204</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1594610925204</updated>
+    </task>
+    <task id="LOCAL-00015" summary="trying to get it to work">
+      <created>1594610997191</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1594610997191</updated>
+    </task>
+    <task id="LOCAL-00016" summary="trying to get it to work">
+      <created>1594611066341</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1594611066341</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -178,6 +213,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -187,9 +223,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="trying to get it to work" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="891" y="519" key="Vcs.Push.Dialog.v2" timestamp="1594610616179">
+    <state x="891" y="519" key="Vcs.Push.Dialog.v2" timestamp="1594611067624">
       <screen x="0" y="0" width="3840" height="1570" />
     </state>
-    <state x="891" y="519" key="Vcs.Push.Dialog.v2/0.0.3840.1570@0.0.3840.1570" timestamp="1594610616179" />
+    <state x="891" y="519" key="Vcs.Push.Dialog.v2/0.0.3840.1570@0.0.3840.1570" timestamp="1594611067624" />
   </component>
 </project>
