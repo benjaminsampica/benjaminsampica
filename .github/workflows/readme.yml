@@ -12,23 +12,4 @@ jobs:
           echo ::set-env name=REPOSITORY::${{ github.repository }}
           echo ::set-env name=EVENT_ISSUE_NUMBER::${{ github.event.issue.number }}
           echo ::set-env name=EVENT_USER_LOGIN::${{ github.event.issue.user.login }}
-      - name: Roll For Initiative
-        uses: actions/setup-node@v2
-        inputs:
-          class:
-            default: 'Warrior'
-        outputs:
-          roll:
-            default: '20'
-        runs:
-          using: 'node12'
-          main: 'index.js'
-      - name: Commit roll
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-      - uses: test-room-7/action-update-file@v1.1.0
-        with:
-          file-path: README.md
-          commit-msg: '${{EVENT_USER_LOGIN}} rolled for initiative.'
-          github-token: ${{ secrets.GITHUB_TOKEN }}
         
