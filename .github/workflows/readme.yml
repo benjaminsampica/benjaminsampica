@@ -18,10 +18,12 @@ jobs:
         id: roll
         with:
           title: ${{ github.event.issue.title }}
-#      - name: Commit roll
-#      - uses: actions/setup-node@v2
-#      - uses: test-room-7/action-update-file@v1.1.0
-#        with:
-#          file-path: README.md
-#          commit-msg: '${{EVENT_USER_LOGIN}} rolled for initiative.'
-#          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v2
+        with:
+          commit-message: ${{ github.event.issue.title }}
+          title: ${{ github.event.issue.title }}
+          body: |
+            Closes #${{ github.event.issue.number }}
+          labels: automated pr
+          branch: roll-for-initiative-${{ github.event.issue.number }}
