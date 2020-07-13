@@ -1,0 +1,12 @@
+﻿name: 'Roll'
+description: 'Rolls for initiative'
+inputs:
+  title:
+    description: 'Github issue title'
+    required: true
+outputs:
+  roll:
+    description: 'The generated roll'
+runs:
+  using: 'node12'
+  main: 'index.js'
