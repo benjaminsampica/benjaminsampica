@@ -23,9 +23,6 @@ jobs:
         runs:
           using: 'node12'
           main: 'index.js'
-      - name: Update Readme
-        inputs:
-          - 
       - name: Commit roll
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
