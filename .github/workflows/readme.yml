@@ -18,7 +18,6 @@ jobs:
         id: roll
         with:
           title: ${{ github.event.issue.title }}
-      - name: Checkout
       - name: Commit roll
       - uses: actions/setup-node@v2
       - uses: test-room-7/action-update-file@v1.1.0
