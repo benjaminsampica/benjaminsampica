@@ -13,7 +13,7 @@
 
 |Class|Count|
 |-|-|
-|Warrior|0|
+|Warrior|1|
 |Cleric|1|
 |Rogue|1|
 |Wizard|1|
