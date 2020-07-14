@@ -24,6 +24,9 @@ const getRoll = (chosenClass) => {
 const splitDatabaseText = (databaseText, textToFind) => {
     const array = databaseText.split(",");
     const foundTextArray = array.find(a => a.includes(textToFind));
+    console.log(textToFind);
+    console.log(array);
+    console.log(foundTextArray);
     return foundTextArray.split("|");
 }
 
@@ -91,7 +94,6 @@ let readMeText =
 
 updateClassTableText(classDatabaseText);
 readMeText += "\n";
-console.log(rollDatabaseText);
 updateRollTableText(rollDatabaseText);
 
 readMeText += "\n![visitors](https://visitor-badge.glitch.me/badge?page_id=benjaminsampica)";
