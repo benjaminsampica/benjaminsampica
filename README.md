@@ -9,11 +9,11 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)
 ### LAST ROLL BY
-[shoe788](https://www.github.com/shoe788)
+[benjaminsampica](https://www.github.com/benjaminsampica) - as a warrior rolled a 19!
 
 |Class|Count|
 |-|-|
-|Warrior|4|
+|Warrior|5|
 |Cleric|3|
 |Rogue|3|
 |Wizard|3|
@@ -24,7 +24,7 @@
 |22|1
 |21|2
 |20|1
-|19|0
+|19|1
 |18|1
 |17|1
 |16|1
@@ -44,5 +44,3 @@
 |2|0
 |1|1
 |0|0
-
-![visitors](https://visitor-badge.glitch.me/badge?page_id=benjaminsampica)
