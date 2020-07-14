@@ -28,10 +28,7 @@ const splitDatabaseText = (databaseText, textToFind) => {
 }
 
 const getDatabaseValue = (databaseText, textToFind) => {
-    console.log("GetDatabaseValue")
     const foundTextArray = splitDatabaseText(databaseText, textToFind);
-    console.log(textToFind)
-    console.log(foundTextArray[1])
     return Number.parseInt(foundTextArray[1]);
 }
 
@@ -44,6 +41,11 @@ const updateClassTableText = () => {
         "|Wizard|" + getDatabaseValue(classDatabaseText, "wizard") + "|\n";
 }
 
+const createClassLink = (chosenClass) => {
+    let url = `https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7C${chosenClass}&body=Just+click+%27Submit+new+issue%27.`;
+    
+}
+
 const updateRollTableText = () => {
     readMeText += "|Roll|Count|\n" +
         "|-|-|\n";
@@ -53,10 +55,6 @@ const updateRollTableText = () => {
 }
 
 const setDatabaseValue = (databaseText, textToFind, newValue) => {
-    console.log("Set database values");
-    console.log(databaseText)
-    console.log(textToFind)
-    console.log(newValue)
     let textArray = splitDatabaseText(databaseText, textToFind);
     const key = textArray[0] + "|";
     const newText = key + newValue;
@@ -76,16 +74,18 @@ const usersClass = getChosenClass();
 const newClassValue = getDatabaseValue(classDatabaseText, usersClass);
 const roll = getRoll(usersClass);
 
+console.log(`Users class ${usersClass}`)
+console.log(`New class value ${newClassValue}`)
 classDatabaseText = setDatabaseValue(classDatabaseText, usersClass, newClassValue);
 rollDatabaseText = setDatabaseValue(rollDatabaseText, roll.toString(), roll.toString());
 
 let readMeText =
     "# ROLL FOR INITIATIVE\n" +
     "### CHOOSE YOUR CLASS\n" +
-    "\n[Warrior | +1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwarrior&body=Just+click+%27Submit+new+issue%27.)\n" +
-    "\n[Cleric | +1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Ccleric&body=Just+click+%27Submit+new+issue%27.)\n" +
-    "\n[Rogue | +3 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Crogue&body=Just+click+%27Submit+new+issue%27.)\n" +
-    "\n[Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)\n" +
+    `\n[Warrior | +1 To Roll](${createClassLink("warrior")})\n` +
+    `\n[Cleric | +1 To Roll](${createClassLink("cleric")})\n` +
+    `\n[Rogue | +3 To Roll](${createClassLink("rogue")})\n` +
+    `\n[Wizard | -1 To Roll](${createClassLink("wizard")})\n` +
     "### LAST ROLL BY\n" +
     `@${core.getInput('user')}` +
     "\n\n";
