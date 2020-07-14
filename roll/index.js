@@ -24,9 +24,6 @@ const getRoll = (chosenClass) => {
 const splitDatabaseText = (databaseText, textToFind) => {
     const array = databaseText.split(",");
     const foundTextArray = array.find(a => a.includes(textToFind));
-    console.log(textToFind);
-    console.log(array);
-    console.log(foundTextArray);
     return foundTextArray.split("|");
 }
 
@@ -77,6 +74,7 @@ const newClassValue = getDatabaseValue(classDatabaseText, usersClass) + 1;
 const roll = getRoll(usersClass);
 const newRollValue = getDatabaseValue(rollDatabaseText, `-${roll}-`) + 1;
 
+console.log(roll);
 classDatabaseText = setDatabaseValue(classDatabaseText, usersClass, newClassValue);
 rollDatabaseText = setDatabaseValue(rollDatabaseText, `-${roll}-`, newRollValue);
 
