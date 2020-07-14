@@ -24,6 +24,9 @@ const getRoll = (chosenClass) => {
 const splitDatabaseText = (databaseText, textToFind) => {
     const array = databaseText.split(",");
     const foundText = array.find((value) => value === textToFind);
+    console.log(foundText);
+    console.log(databaseText);
+    console.log(textToFind);
     return foundText.split("|");
 }
 
@@ -45,7 +48,7 @@ const updateRollTableText = () => {
     readMeText += "|Roll|Count|\n" +
         "|-|-|\n";
     
-    for(i = 23; i > 0; i--)
+    for(let i = 23; i > 0; i--)
     {
         readMeText += `|${i}|` + getDatabaseValue(rollDatabaseText, `${i}`) + "\n";
     }
@@ -87,6 +90,6 @@ updateRollTableText();
 readMeText += "![visitors](https://visitor-badge.glitch.me/badge?page_id=benjaminsampica)";
 fs.writeFileSync('./README.md', readMeText);
 fs.writeFileSync('./rollDatabase.txt', rollDatabaseText);
-
+fs.writeFileSync('./classDatabase.txt', classDatabaseText);
 
 
