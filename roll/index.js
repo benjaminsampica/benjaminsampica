@@ -32,26 +32,25 @@ const getDatabaseValue = (databaseText, textToFind) => {
     return Number.parseInt(foundTextArray[1]);
 }
 
-const updateClassTableText = () => {
+const updateClassTableText = (databaseText) => {
     readMeText += "|Class|Count|\n" +
         "|-|-|\n" +
-        "|Warrior|" + getDatabaseValue(classDatabaseText, "warrior") + "|\n" +
-        "|Cleric|" + getDatabaseValue(classDatabaseText, "cleric") + "|\n" +
-        "|Rogue|" + getDatabaseValue(classDatabaseText, "rogue") + "|\n" +
-        "|Wizard|" + getDatabaseValue(classDatabaseText, "wizard") + "|\n";
+        "|Warrior|" + getDatabaseValue(databaseText, "warrior") + "|\n" +
+        "|Cleric|" + getDatabaseValue(databaseText, "cleric") + "|\n" +
+        "|Rogue|" + getDatabaseValue(databaseText, "rogue") + "|\n" +
+        "|Wizard|" + getDatabaseValue(databaseText, "wizard") + "|\n";
 }
 
 const createClassLink = (chosenClass) => {
-    let url = `https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7C${chosenClass}&body=Just+click+%27Submit+new+issue%27.`;
-    
+    return `https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7C${chosenClass}&body=Just+click+%27Submit+new+issue%27.`;
 }
 
-const updateRollTableText = () => {
+const updateRollTableText = (databaseText) => {
     readMeText += "|Roll|Count|\n" +
         "|-|-|\n";
     
     for(let i = 23; i > 0; i--)
-        readMeText += `|${i}|` + getDatabaseValue(rollDatabaseText, `${i}`) + "\n";
+        readMeText += `|${i}|` + getDatabaseValue(databaseText, `${i}`) + "\n";
 }
 
 const setDatabaseValue = (databaseText, textToFind, newValue) => {
@@ -70,6 +69,7 @@ const setDatabaseValue = (databaseText, textToFind, newValue) => {
 let rollDatabaseText = fs.readFileSync('./rollDatabase.txt', 'utf8');
 let classDatabaseText = fs.readFileSync('./classDatabase.txt', 'utf8');
 
+
 const usersClass = getChosenClass();
 const newClassValue = getDatabaseValue(classDatabaseText, usersClass);
 const roll = getRoll(usersClass);
@@ -77,8 +77,9 @@ const roll = getRoll(usersClass);
 console.log(`Users class ${usersClass}`)
 console.log(`New class value ${newClassValue}`)
 classDatabaseText = setDatabaseValue(classDatabaseText, usersClass, newClassValue);
-rollDatabaseText = setDatabaseValue(rollDatabaseText, roll.toString(), roll.toString());
+rollDatabaseText = setDatabaseValue(rollDatabaseText, roll.toString() + "|", roll.toString());
 
+const user = core.getInput('user');
 let readMeText =
     "# ROLL FOR INITIATIVE\n" +
     "### CHOOSE YOUR CLASS\n" +
@@ -87,12 +88,12 @@ let readMeText =
     `\n[Rogue | +3 To Roll](${createClassLink("rogue")})\n` +
     `\n[Wizard | -1 To Roll](${createClassLink("wizard")})\n` +
     "### LAST ROLL BY\n" +
-    `@${core.getInput('user')}` +
+    `[${user}](https://www.github.com/${user})` +
     "\n\n";
 
-updateClassTableText();
+updateClassTableText(classDatabaseText);
 readMeText += "\n";
-updateRollTableText();
+updateRollTableText(rollDatabaseText);
 
 readMeText += "\n![visitors](https://visitor-badge.glitch.me/badge?page_id=benjaminsampica)";
 fs.writeFileSync('./README.md', readMeText);
