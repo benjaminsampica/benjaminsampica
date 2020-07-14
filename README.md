@@ -11,12 +11,12 @@
 ### LAST ROLL BY
 @benjaminsampica
 
-|Classes|Count|
+|Class|Count|
 |-|-|
-|Warrior|0
-|Cleric|0
-|Rogue|0
-|Wizard|0
+|Warrior|0|
+|Cleric|0|
+|Rogue|0|
+|Wizard|0|
 
 |Roll|Count|
 |-|-|
