@@ -56,7 +56,8 @@ const setDatabaseValue = (databaseText, textToFind, newValue) => {
     const key = textArray[0] + "|";
     const newText = key + newValue;
     const textToReplace = key + textArray[1];
-    databaseText.replace(textToReplace, newText);
+
+    return databaseText.replace(textToReplace, newText);
 }
 
 // -- End Functions --
@@ -71,8 +72,8 @@ const newClassValue = getDatabaseValue(classDatabaseText, usersClass);
 const roll = getRoll(usersClass);
 
 console.log(classDatabaseText);
-setDatabaseValue(classDatabaseText, usersClass, newClassValue);
-setDatabaseValue(rollDatabaseText, roll.toString(), roll.toString());
+classDatabaseText = setDatabaseValue(classDatabaseText, usersClass, newClassValue);
+rollDatabaseText = setDatabaseValue(rollDatabaseText, roll.toString(), roll.toString());
 console.log(classDatabaseText);
 
 let readMeText =
@@ -83,10 +84,11 @@ let readMeText =
     "\n[Rogue | +3 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Crogue&body=Just+click+%27Submit+new+issue%27.)\n" +
     "\n[Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)\n" +
     "### LAST ROLL BY\n" +
-    core.getInput('user') + 
+    `@${core.getInput('user')}` +  + 
     "\n\n";
 
 updateClassTableText();
+readMeText += "\n";
 updateRollTableText();
 
 readMeText += "\n![visitors](https://visitor-badge.glitch.me/badge?page_id=benjaminsampica)";
