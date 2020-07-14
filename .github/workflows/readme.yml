@@ -7,15 +7,15 @@ jobs:
     runs-on: ubuntu-latest
     if: startsWith(github.event.issue.title, 'roll|')
     steps:
+      - uses: actions/checkout@v2
+      - run: |
+          git pull origin master
       - name: Roll For Initiative
         uses: ./roll
         id: roll
         with:
           title: ${{ github.event.issue.title }}
           user: ${{ github.event.issue.user.login }}
-      - uses: actions/checkout@v2
-      - run: |
-          git pull origin master
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
