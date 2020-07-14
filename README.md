@@ -15,13 +15,13 @@
 |-|-|
 |Warrior|2|
 |Cleric|3|
-|Rogue|0|
+|Rogue|1|
 |Wizard|2|
 
 |Roll|Count|
 |-|-|
 |23|0
-|22|0
+|22|1
 |21|1
 |20|1
 |19|0
