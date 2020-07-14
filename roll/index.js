@@ -91,6 +91,7 @@ let readMeText =
 
 updateClassTableText(classDatabaseText);
 readMeText += "\n";
+console.log(rollDatabaseText);
 updateRollTableText(rollDatabaseText);
 
 readMeText += "\n![visitors](https://visitor-badge.glitch.me/badge?page_id=benjaminsampica)";
