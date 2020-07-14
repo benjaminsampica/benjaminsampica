@@ -71,12 +71,13 @@ let classDatabaseText = fs.readFileSync('./classDatabase.txt', 'utf8');
 
 const usersClass = getChosenClass();
 const newClassValue = getDatabaseValue(classDatabaseText, usersClass) + 1;
+const newRollValue = getDatabaseValue(classDatabaseText, usersClass) + 1;
 const roll = getRoll(usersClass);
 
 console.log(`Users class ${usersClass}`)
 console.log(`New class value ${newClassValue}`)
 classDatabaseText = setDatabaseValue(classDatabaseText, usersClass, newClassValue);
-rollDatabaseText = setDatabaseValue(rollDatabaseText, roll.toString() + "|", roll.toString());
+rollDatabaseText = setDatabaseValue(rollDatabaseText, roll.toString() + "|", newRollValue);
 
 const user = core.getInput('user');
 let readMeText =
