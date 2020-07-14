@@ -9,11 +9,11 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)
 ### LAST ROLL BY
-[chadlevn](https://www.github.com/chadlevn)
+[Lyddon7522](https://www.github.com/Lyddon7522)
 
 |Class|Count|
 |-|-|
-|Warrior|2|
+|Warrior|3|
 |Cleric|3|
 |Rogue|2|
 |Wizard|3|
@@ -37,7 +37,7 @@
 |9|0
 |8|0
 |7|0
-|6|0
+|6|1
 |5|0
 |4|0
 |3|0
