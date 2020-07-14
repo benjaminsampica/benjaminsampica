@@ -49,7 +49,7 @@ const updateRollTableText = (databaseText) => {
     readMeText += "|Roll|Count|\n" +
         "|-|-|\n";
     
-    for(let i = 23; i > 0; i--)
+    for(let i = 23; i >= 0; i--)
         readMeText += `|${i}|` + getDatabaseValue(databaseText, `-${i}-`) + "\n";
 }
 
@@ -71,11 +71,9 @@ let classDatabaseText = fs.readFileSync('./classDatabase.txt', 'utf8');
 
 const usersClass = getChosenClass();
 const newClassValue = getDatabaseValue(classDatabaseText, usersClass) + 1;
-const newRollValue = getDatabaseValue(classDatabaseText, usersClass) + 1;
+const newRollValue = getDatabaseValue(rollDatabaseText, `-${roll}-`) + 1;
 const roll = getRoll(usersClass);
 
-console.log(`roll ${roll}`)
-console.log(`New roll value ${newRollValue}`)
 classDatabaseText = setDatabaseValue(classDatabaseText, usersClass, newClassValue);
 rollDatabaseText = setDatabaseValue(rollDatabaseText, `-${roll}-`, newRollValue);
 
