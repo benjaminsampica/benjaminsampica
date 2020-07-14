@@ -5,7 +5,7 @@ inputs:
     description: 'Github issue title'
     required: true
 outputs:
-  roll:
+  number:
     description: 'The generated roll'
 runs:
   using: 'node12'

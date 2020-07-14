@@ -7,17 +7,27 @@ jobs:
     runs-on: ubuntu-latest
     if: startsWith(github.event.issue.title, 'roll|')
     steps:
-      - name: Set env vars
-        run: |
-          echo ::set-env name=REPOSITORY::${{ github.repository }}
-          echo ::set-env name=EVENT_ISSUE_NUMBER::${{ github.event.issue.number }}
-          echo ::set-env name=EVENT_USER_LOGIN::${{ github.event.issue.user.login }}
       - uses: actions/checkout@v2
       - name: Roll For Initiative
         uses: ./roll
         id: roll
         with:
           title: ${{ github.event.issue.title }}
+      - name: Write result
+        uses: ./write
+        id: write
+        with:
+          user: ${{ github.event.issue.user.login }}
+          roll: ${{ steps.roll.outputs.number }}
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Add changes" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Close Issue
         uses: peter-evans/close-issue@v1
         with:
