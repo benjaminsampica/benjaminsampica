@@ -71,8 +71,8 @@ let classDatabaseText = fs.readFileSync('./classDatabase.txt', 'utf8');
 
 const usersClass = getChosenClass();
 const newClassValue = getDatabaseValue(classDatabaseText, usersClass) + 1;
-const newRollValue = getDatabaseValue(rollDatabaseText, `-${roll}-`) + 1;
 const roll = getRoll(usersClass);
+const newRollValue = getDatabaseValue(rollDatabaseText, `-${roll}-`) + 1;
 
 classDatabaseText = setDatabaseValue(classDatabaseText, usersClass, newClassValue);
 rollDatabaseText = setDatabaseValue(rollDatabaseText, `-${roll}-`, newRollValue);
