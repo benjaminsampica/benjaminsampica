@@ -15,7 +15,7 @@
 |-|-|
 |Warrior|0|
 |Cleric|1|
-|Rogue|0|
+|Rogue|1|
 |Wizard|1|
 
 |Roll|Count|
