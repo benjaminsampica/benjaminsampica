@@ -74,8 +74,8 @@ const newClassValue = getDatabaseValue(classDatabaseText, usersClass) + 1;
 const newRollValue = getDatabaseValue(classDatabaseText, usersClass) + 1;
 const roll = getRoll(usersClass);
 
-console.log(`Users class ${usersClass}`)
-console.log(`New class value ${newClassValue}`)
+console.log(`roll ${roll}`)
+console.log(`New roll value ${newRollValue}`)
 classDatabaseText = setDatabaseValue(classDatabaseText, usersClass, newClassValue);
 rollDatabaseText = setDatabaseValue(rollDatabaseText, roll.toString() + "|", newRollValue);
 
