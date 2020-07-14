@@ -69,9 +69,8 @@ const setDatabaseValue = (databaseText, textToFind, newValue) => {
 let rollDatabaseText = fs.readFileSync('./rollDatabase.txt', 'utf8');
 let classDatabaseText = fs.readFileSync('./classDatabase.txt', 'utf8');
 
-
 const usersClass = getChosenClass();
-const newClassValue = getDatabaseValue(classDatabaseText, usersClass);
+const newClassValue = getDatabaseValue(classDatabaseText, usersClass) + 1;
 const roll = getRoll(usersClass);
 
 console.log(`Users class ${usersClass}`)
