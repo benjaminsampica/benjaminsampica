@@ -13,6 +13,7 @@ jobs:
         id: roll
         with:
           title: ${{ github.event.issue.title }}
+          user: ${{ github.event.issue.user.login }}
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
