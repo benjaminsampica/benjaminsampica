@@ -53,10 +53,9 @@ const updateRollTableText = () => {
 
 const setDatabaseValue = (databaseText, textToFind, newValue) => {
     let textArray = splitDatabaseText(databaseText, textToFind);
-    const newText = textArray[0] + "|" + newValue;
-    const textToReplace = textArray[0] + textArray[1];
-    console.log(textToReplace);
-    console.log(newValue);
+    const key = textArray[0] + "|";
+    const newText = key + newValue;
+    const textToReplace = key + textArray[1];
     databaseText.replace(textToReplace, newText);
 }
 
@@ -84,12 +83,13 @@ let readMeText =
     "\n[Rogue | +3 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Crogue&body=Just+click+%27Submit+new+issue%27.)\n" +
     "\n[Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)\n" +
     "### LAST ROLL BY\n" +
-    core.getInput('user');
+    core.getInput('user') + 
+    "\n\n";
 
 updateClassTableText();
 updateRollTableText();
 
-readMeText += "![visitors](https://visitor-badge.glitch.me/badge?page_id=benjaminsampica)";
+readMeText += "\n![visitors](https://visitor-badge.glitch.me/badge?page_id=benjaminsampica)";
 fs.writeFileSync('./README.md', readMeText);
 fs.writeFileSync('./rollDatabase.txt', rollDatabaseText);
 fs.writeFileSync('./classDatabase.txt', classDatabaseText);

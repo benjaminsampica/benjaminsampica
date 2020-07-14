@@ -4,9 +4,9 @@ inputs:
   title:
     description: 'Github issue title'
     required: true
-outputs:
-  number:
-    description: 'The generated roll'
+  user:
+    description: 'Github user'
+    required: true
 runs:
   using: 'node12'
   main: 'index.js'
