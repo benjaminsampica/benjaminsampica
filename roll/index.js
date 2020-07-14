@@ -28,7 +28,10 @@ const splitDatabaseText = (databaseText, textToFind) => {
 }
 
 const getDatabaseValue = (databaseText, textToFind) => {
+    console.log("GetDatabaseValue")
     const foundTextArray = splitDatabaseText(databaseText, textToFind);
+    console.log(textToFind)
+    console.log(foundTextArray[1])
     return Number.parseInt(foundTextArray[1]);
 }
 
