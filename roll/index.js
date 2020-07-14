@@ -33,12 +33,12 @@ const getDatabaseValue = (databaseText, textToFind) => {
 }
 
 const updateClassTableText = () => {
-    readMeText += "|Classes|Count|\n" +
+    readMeText += "|Class|Count|\n" +
         "|-|-|\n" +
-        "|Warrior|" + getDatabaseValue(classDatabaseText, "warrior") + "\n" +
-        "|Cleric|" + getDatabaseValue(classDatabaseText, "cleric") + "\n" +
-        "|Rogue|" + getDatabaseValue(classDatabaseText, "rogue") + "\n" +
-        "|Wizard|" + getDatabaseValue(classDatabaseText, "wizard") + "\n";
+        "|Warrior|" + getDatabaseValue(classDatabaseText, "warrior") + "|\n" +
+        "|Cleric|" + getDatabaseValue(classDatabaseText, "cleric") + "|\n" +
+        "|Rogue|" + getDatabaseValue(classDatabaseText, "rogue") + "|\n" +
+        "|Wizard|" + getDatabaseValue(classDatabaseText, "wizard") + "|\n";
 }
 
 const updateRollTableText = () => {
@@ -46,12 +46,14 @@ const updateRollTableText = () => {
         "|-|-|\n";
     
     for(let i = 23; i > 0; i--)
-    {
         readMeText += `|${i}|` + getDatabaseValue(rollDatabaseText, `${i}`) + "\n";
-    }
 }
 
 const setDatabaseValue = (databaseText, textToFind, newValue) => {
+    console.log("Set database values");
+    console.log(databaseText)
+    console.log(textToFind)
+    console.log(newValue)
     let textArray = splitDatabaseText(databaseText, textToFind);
     const key = textArray[0] + "|";
     const newText = key + newValue;
@@ -71,10 +73,8 @@ const usersClass = getChosenClass();
 const newClassValue = getDatabaseValue(classDatabaseText, usersClass);
 const roll = getRoll(usersClass);
 
-console.log(classDatabaseText);
 classDatabaseText = setDatabaseValue(classDatabaseText, usersClass, newClassValue);
 rollDatabaseText = setDatabaseValue(rollDatabaseText, roll.toString(), roll.toString());
-console.log(classDatabaseText);
 
 let readMeText =
     "# ROLL FOR INITIATIVE\n" +
@@ -84,7 +84,7 @@ let readMeText =
     "\n[Rogue | +3 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Crogue&body=Just+click+%27Submit+new+issue%27.)\n" +
     "\n[Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)\n" +
     "### LAST ROLL BY\n" +
-    `@${core.getInput('user')}` +  + 
+    `@${core.getInput('user')}` +
     "\n\n";
 
 updateClassTableText();
