@@ -13,10 +13,10 @@
 
 |Class|Count|
 |-|-|
-|Warrior|1|
-|Cleric|1|
-|Rogue|3|
-|Wizard|1|
+|Warrior|0|
+|Cleric|0|
+|Rogue|0|
+|Wizard|0|
 
 |Roll|Count|
 |-|-|
