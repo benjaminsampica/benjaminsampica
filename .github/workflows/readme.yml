@@ -8,7 +8,7 @@ jobs:
     if: startsWith(github.event.issue.title, 'roll|')
     steps:
       - uses: actions/checkout@v2
-        run: |
+      - run: |
           git pull origin master
       - name: Roll For Initiative
         uses: ./roll
