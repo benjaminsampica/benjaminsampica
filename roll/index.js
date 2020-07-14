@@ -18,7 +18,7 @@ const getChosenClass = () => {
 }
 const getRoll = (chosenClass) => {
     let roll = getRandomNumber() + getClassInitiativeBonus(chosenClass);
-    return Math.min(roll, 1);
+    return Math.max(roll, 1);
 }
 
 const splitDatabaseText = (databaseText, textToFind) => {
