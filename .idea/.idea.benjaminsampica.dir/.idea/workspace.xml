@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c3a8f18-b177-4fcb-af80-ca4e709b18be" name="Default Changelist" comment="Update index.js">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="9c3a8f18-b177-4fcb-af80-ca4e709b18be" name="Default Changelist" comment="Update index.js" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,8 +46,8 @@
         <option value="$PROJECT_DIR$/write/index.js" />
         <option value="$PROJECT_DIR$/rollDatabase.txt" />
         <option value="$PROJECT_DIR$/classDatabase.txt" />
-        <option value="$PROJECT_DIR$/roll/index.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/roll/index.js" />
       </list>
     </option>
   </component>
@@ -99,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594604798095</updated>
       <workItem from="1594604801233" duration="6313000" />
-      <workItem from="1594682777314" duration="10637000" />
+      <workItem from="1594682777314" duration="11087000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1594607927623</created>
@@ -290,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594693163897</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Update index.js">
+      <created>1594693869582</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1594693869582</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,10 +404,10 @@
       <screen x="0" y="0" width="3840" height="1570" />
     </state>
     <state x="1129" y="655" key="VCS.EditChangelistDialog/0.-2160.3072.1704/0.0.3840.1570@0.0.3840.1570" timestamp="1594684905173" />
-    <state x="891" y="519" key="Vcs.Push.Dialog.v2" timestamp="1594693170440">
+    <state x="891" y="519" key="Vcs.Push.Dialog.v2" timestamp="1594693870894">
       <screen x="0" y="0" width="3840" height="1570" />
     </state>
-    <state x="891" y="519" key="Vcs.Push.Dialog.v2/0.-2160.3072.1704/0.0.3840.1570@0.0.3840.1570" timestamp="1594693170440" />
+    <state x="891" y="519" key="Vcs.Push.Dialog.v2/0.-2160.3072.1704/0.0.3840.1570@0.0.3840.1570" timestamp="1594693870894" />
     <state x="891" y="519" key="Vcs.Push.Dialog.v2/0.0.3840.1570@0.0.3840.1570" timestamp="1594611067624" />
   </component>
 </project>
