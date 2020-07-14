@@ -1,0 +1,12 @@
+﻿name: 'Recreate readme'
+description: 'Recreates our readme file'
+inputs:
+  user:
+    description: 'User who rolled'
+    required: true
+  roll:
+    description: 'Roll amount'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'

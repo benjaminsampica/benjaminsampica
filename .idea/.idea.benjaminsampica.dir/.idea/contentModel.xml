@@ -22,6 +22,9 @@
       <e p="node_modules\before-after-hook" t="IncludeRecursive" />
       <e p="node_modules\deprecation" t="IncludeRecursive" />
       <e p="node_modules\is-plain-object" t="IncludeRecursive" />
+      <e p="node_modules\markdown-it" t="IncludeRecursive" />
+      <e p="node_modules\marked" t="IncludeRecursive" />
+      <e p="node_modules\readfile" t="IncludeRecursive" />
       <e p="node_modules\universal-user-agent" t="IncludeRecursive" />
     </e>
   </component>
