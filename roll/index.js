@@ -77,7 +77,7 @@ const roll = getRoll(usersClass);
 console.log(`roll ${roll}`)
 console.log(`New roll value ${newRollValue}`)
 classDatabaseText = setDatabaseValue(classDatabaseText, usersClass, newClassValue);
-rollDatabaseText = setDatabaseValue(rollDatabaseText, "R" + roll, newRollValue);
+rollDatabaseText = setDatabaseValue(rollDatabaseText, `-${roll}-`, newRollValue);
 
 const user = core.getInput('user');
 let readMeText =
