@@ -10,7 +10,7 @@ const getClassInitiativeBonus = chosenClass => {
     if(chosenClass === "rogue") return 3;
     if(chosenClass === "wizard") return -1;
     return 0;
-};
+}
 const getChosenClass = () => {
     const title = core.getInput('title') || "roll|warrior";
     const titleArray = title.split(`|`);
@@ -20,18 +20,15 @@ const getRoll = (chosenClass) => {
     let roll = getRandomNumber() + getClassInitiativeBonus(chosenClass);
     return Math.max(roll, 1);
 }
-
 const splitDatabaseText = (databaseText, textToFind) => {
     const array = databaseText.split(",");
     const foundTextArray = array.find(a => a.includes(textToFind));
     return foundTextArray.split("|");
 }
-
 const getDatabaseValue = (databaseText, textToFind) => {
     const foundTextArray = splitDatabaseText(databaseText, textToFind);
     return Number.parseInt(foundTextArray[1]);
 }
-
 const updateClassTableText = (databaseText) => {
     readMeText += "|Class|Count|\n" +
         "|-|-|\n" +
@@ -40,11 +37,9 @@ const updateClassTableText = (databaseText) => {
         "|Rogue|" + getDatabaseValue(databaseText, "rogue") + "|\n" +
         "|Wizard|" + getDatabaseValue(databaseText, "wizard") + "|\n";
 }
-
 const createClassLink = (chosenClass) => {
     return `https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7C${chosenClass}&body=Just+click+%27Submit+new+issue%27.`;
 }
-
 const updateRollTableText = (databaseText) => {
     readMeText += "|Roll|Count|\n" +
         "|-|-|\n";
@@ -52,7 +47,6 @@ const updateRollTableText = (databaseText) => {
     for(let i = 23; i >= 0; i--)
         readMeText += `|${i}|` + getDatabaseValue(databaseText, `-${i}-`) + "\n";
 }
-
 const setDatabaseValue = (databaseText, textToFind, newValue) => {
     let textArray = splitDatabaseText(databaseText, textToFind);
     const key = textArray[0] + "|";
@@ -87,14 +81,13 @@ let readMeText =
     `\n[Rogue | +3 To Roll](${createClassLink("rogue")})\n` +
     `\n[Wizard | -1 To Roll](${createClassLink("wizard")})\n` +
     "### LAST ROLL BY\n" +
-    `[${user}](https://www.github.com/${user})` +
+    `[${user}](https://www.github.com/${user}) - as a ${usersClass} rolled a ${roll}!` +
     "\n\n";
 
 updateClassTableText(classDatabaseText);
 readMeText += "\n";
 updateRollTableText(rollDatabaseText);
 
-readMeText += "\n![visitors](https://visitor-badge.glitch.me/badge?page_id=benjaminsampica)";
 fs.writeFileSync('./README.md', readMeText);
 fs.writeFileSync('./rollDatabase.txt', rollDatabaseText);
 fs.writeFileSync('./classDatabase.txt', classDatabaseText);
