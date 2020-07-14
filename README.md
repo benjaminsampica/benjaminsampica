@@ -15,14 +15,14 @@
 |-|-|
 |Warrior|1|
 |Cleric|1|
-|Rogue|2|
+|Rogue|3|
 |Wizard|1|
 
 |Roll|Count|
 |-|-|
 |23|0
 |22|0
-|21|2
+|21|3
 |20|0
 |19|0
 |18|0
@@ -42,6 +42,6 @@
 |4|0
 |3|0
 |2|0
-|1|2
+|1|3
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=benjaminsampica)
