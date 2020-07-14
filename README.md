@@ -14,7 +14,7 @@
 |Class|Count|
 |-|-|
 |Warrior|0|
-|Cleric|0|
+|Cleric|1|
 |Rogue|0|
 |Wizard|0|
 
