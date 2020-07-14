@@ -9,19 +9,18 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)
 ### LAST ROLL BY
-benjaminsampica
-
-|Classes|Count|
+@benjaminsampica0|Classes|Count|
 |-|-|
 |Warrior|0
 |Cleric|0
 |Rogue|0
 |Wizard|0
+
 |Roll|Count|
 |-|-|
 |23|0
 |22|0
-|21|0
+|21|1
 |20|0
 |19|0
 |18|0
@@ -41,6 +40,6 @@ benjaminsampica
 |4|0
 |3|0
 |2|0
-|1|0
+|1|1
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=benjaminsampica)
