@@ -23,10 +23,7 @@ const getRoll = (chosenClass) => {
 
 const splitDatabaseText = (databaseText, textToFind) => {
     const array = databaseText.split(",");
-    const foundText = array.find((value) => value === textToFind);
-    console.log(foundText);
-    console.log(databaseText);
-    console.log(textToFind);
+    const foundText = array.find((value) => value.contains(textToFind));
     return foundText.split("|");
 }
 
