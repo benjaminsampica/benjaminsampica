@@ -50,7 +50,7 @@ const updateRollTableText = (databaseText) => {
         "|-|-|\n";
     
     for(let i = 23; i > 0; i--)
-        readMeText += `|${i}|` + getDatabaseValue(databaseText, `${i}`) + "\n";
+        readMeText += `|${i}|` + getDatabaseValue(databaseText, `-${i}-`) + "\n";
 }
 
 const setDatabaseValue = (databaseText, textToFind, newValue) => {
