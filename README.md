@@ -9,12 +9,12 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)
 ### LAST ROLL BY
-[shahzore-qureshi](https://www.github.com/shahzore-qureshi) - as a rogue rolled a 22!
+[Boman](https://www.github.com/Boman) - as a cleric rolled a 5!
 
 |Class|Count|
 |-|-|
 |Warrior|8|
-|Cleric|6|
+|Cleric|7|
 |Rogue|5|
 |Wizard|3|
 
@@ -38,7 +38,7 @@
 |8|0
 |7|1
 |6|2
-|5|0
+|5|1
 |4|1
 |3|0
 |2|0
