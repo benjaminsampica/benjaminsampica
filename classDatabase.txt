@@ -1,4 +1,4 @@
 ﻿warrior|16,
 cleric|9,
-rogue|12,
+rogue|13,
 wizard|9
