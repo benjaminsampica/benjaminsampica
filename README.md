@@ -9,12 +9,12 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)
 ### LAST ROLL BY
-[SimplyBallistic](https://www.github.com/SimplyBallistic) - as a cleric rolled a 7!
+[lorencerri](https://www.github.com/lorencerri) - as a cleric rolled a 9!
 
 |Class|Count|
 |-|-|
 |Warrior|61|
-|Cleric|31|
+|Cleric|32|
 |Rogue|72|
 |Wizard|53|
 
@@ -34,7 +34,7 @@
 |12|10
 |11|6
 |10|10
-|9|9
+|9|10
 |8|9
 |7|14
 |6|10
