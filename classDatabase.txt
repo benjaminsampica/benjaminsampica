@@ -1,4 +1,4 @@
 ﻿warrior|312,
 cleric|289,
 rogue|318,
-wizard|161
+wizard|162
