@@ -20,7 +20,7 @@
   "dependencies": {
     "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0",
-    "markdown-it": "^11.0.0",
+    "markdown-it": "^12.3.2",
     "marked": "^4.0.10",
     "readfile": "^1.0.1"
   }
