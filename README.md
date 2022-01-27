@@ -9,14 +9,14 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)
 ### LAST ROLL BY
-[Coordinate-Cat](https://www.github.com/Coordinate-Cat) - as a cleric rolled a 2!
+[MoPaMo](https://www.github.com/MoPaMo) - as a wizard rolled a 18!
 
 |Class|Count|
 |-|-|
 |Warrior|322|
 |Cleric|296|
 |Rogue|333|
-|Wizard|172|
+|Wizard|173|
 
 |Roll|Count|
 |-|-|
@@ -25,7 +25,7 @@
 |21|61
 |20|57
 |19|45
-|18|45
+|18|46
 |17|62
 |16|48
 |15|55
