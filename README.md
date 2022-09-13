@@ -9,13 +9,13 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)
 ### LAST ROLL BY
-[ItaloScript](https://www.github.com/ItaloScript) - as a rogue rolled a 5!
+[ItaloScript](https://www.github.com/ItaloScript) - as a rogue rolled a 7!
 
 |Class|Count|
 |-|-|
 |Warrior|403|
 |Cleric|322|
-|Rogue|407|
+|Rogue|408|
 |Wizard|239|
 
 |Roll|Count|
@@ -36,7 +36,7 @@
 |10|68
 |9|78
 |8|67
-|7|86
+|7|87
 |6|80
 |5|64
 |4|71
