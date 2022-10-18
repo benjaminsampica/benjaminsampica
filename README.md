@@ -9,14 +9,14 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)
 ### LAST ROLL BY
-[TheDayIsMyEnemy](https://www.github.com/TheDayIsMyEnemy) - as a warrior rolled a 12!
+[TheDayIsMyEnemy](https://www.github.com/TheDayIsMyEnemy) - as a wizard rolled a 17!
 
 |Class|Count|
 |-|-|
 |Warrior|411|
 |Cleric|330|
 |Rogue|418|
-|Wizard|257|
+|Wizard|258|
 
 |Roll|Count|
 |-|-|
@@ -26,7 +26,7 @@
 |20|67
 |19|51
 |18|58
-|17|77
+|17|78
 |16|64
 |15|67
 |14|52
