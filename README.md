@@ -9,13 +9,13 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)
 ### LAST ROLL BY
-[ElminD](https://www.github.com/ElminD) - as a cleric rolled a 6!
+[Lenitra](https://www.github.com/Lenitra) - as a rogue rolled a 6!
 
 |Class|Count|
 |-|-|
 |Warrior|518|
 |Cleric|378|
-|Rogue|505|
+|Rogue|506|
 |Wizard|345|
 
 |Roll|Count|
@@ -37,7 +37,7 @@
 |9|100
 |8|81
 |7|106
-|6|108
+|6|109
 |5|72
 |4|87
 |3|68
