@@ -9,11 +9,11 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)
 ### LAST ROLL BY
-[the-supernova](https://www.github.com/the-supernova) - as a rogue rolled a 6!
+[Jackesque](https://www.github.com/Jackesque) - as a warrior rolled a 6!
 
 |Class|Count|
 |-|-|
-|Warrior|555|
+|Warrior|556|
 |Cleric|385|
 |Rogue|552|
 |Wizard|366|
@@ -37,7 +37,7 @@
 |9|103
 |8|86
 |7|114
-|6|118
+|6|119
 |5|79
 |4|93
 |3|74
