@@ -9,12 +9,12 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)
 ### LAST ROLL BY
-[WiiWake3101](https://www.github.com/WiiWake3101) - as a rogue rolled a 22!
+[culp-rits](https://www.github.com/culp-rits) - as a cleric rolled a 12!
 
 |Class|Count|
 |-|-|
 |Warrior|586|
-|Cleric|393|
+|Cleric|394|
 |Rogue|591|
 |Wizard|390|
 
@@ -31,7 +31,7 @@
 |15|98
 |14|69
 |13|100
-|12|100
+|12|101
 |11|95
 |10|100
 |9|106
