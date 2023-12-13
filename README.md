@@ -9,11 +9,11 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)
 ### LAST ROLL BY
-[devCKVargas](https://www.github.com/devCKVargas) - as a rogue rolled a 23!
+[kantik001](https://www.github.com/kantik001) - as a warrior rolled a 3!
 
 |Class|Count|
 |-|-|
-|Warrior|593|
+|Warrior|594|
 |Cleric|395|
 |Rogue|597|
 |Wizard|396|
@@ -40,7 +40,7 @@
 |6|125
 |5|85
 |4|104
-|3|76
+|3|77
 |2|59
 |1|37
 |0|0
