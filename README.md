@@ -9,11 +9,11 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)
 ### LAST ROLL BY
-[AIT-LAHCEN-REDOUAN](https://www.github.com/AIT-LAHCEN-REDOUAN) - as a warrior rolled a 15!
+[Voligoma](https://www.github.com/Voligoma) - as a warrior rolled a 20!
 
 |Class|Count|
 |-|-|
-|Warrior|627|
+|Warrior|628|
 |Cleric|404|
 |Rogue|621|
 |Wizard|417|
@@ -23,7 +23,7 @@
 |23|29
 |22|39
 |21|103
-|20|90
+|20|91
 |19|74
 |18|86
 |17|114
