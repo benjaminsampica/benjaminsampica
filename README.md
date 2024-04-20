@@ -9,12 +9,12 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)
 ### LAST ROLL BY
-[brunolpw](https://www.github.com/brunolpw) - as a cleric rolled a 15!
+[brunolpw](https://www.github.com/brunolpw) - as a cleric rolled a 13!
 
 |Class|Count|
 |-|-|
 |Warrior|632|
-|Cleric|405|
+|Cleric|406|
 |Rogue|628|
 |Wizard|419|
 
@@ -30,7 +30,7 @@
 |16|95
 |15|104
 |14|75
-|13|104
+|13|105
 |12|108
 |11|100
 |10|102
