@@ -9,14 +9,14 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)
 ### LAST ROLL BY
-[kleber-code](https://www.github.com/kleber-code) - as a warrior rolled a 8!
+[kleber-code](https://www.github.com/kleber-code) - as a wizard rolled a 7!
 
 |Class|Count|
 |-|-|
 |Warrior|637|
 |Cleric|407|
 |Rogue|632|
-|Wizard|427|
+|Wizard|428|
 
 |Roll|Count|
 |-|-|
@@ -36,7 +36,7 @@
 |10|103
 |9|115
 |8|102
-|7|126
+|7|127
 |6|131
 |5|94
 |4|110
