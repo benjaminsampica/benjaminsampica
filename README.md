@@ -9,13 +9,13 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)
 ### LAST ROLL BY
-[GooDeeJAY](https://www.github.com/GooDeeJAY) - as a wizard rolled a 7!
+[HarbingerOfFire](https://www.github.com/HarbingerOfFire) - as a rogue rolled a 19!
 
 |Class|Count|
 |-|-|
 |Warrior|652|
 |Cleric|409|
-|Rogue|645|
+|Rogue|646|
 |Wizard|442|
 
 |Roll|Count|
@@ -24,7 +24,7 @@
 |22|41
 |21|107
 |20|91
-|19|81
+|19|82
 |18|91
 |17|117
 |16|98
