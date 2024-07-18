@@ -9,20 +9,20 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)
 ### LAST ROLL BY
-[HarbingerOfFire](https://www.github.com/HarbingerOfFire) - as a rogue rolled a 19!
+[BobJr23](https://www.github.com/BobJr23) - as a rogue rolled a 21!
 
 |Class|Count|
 |-|-|
 |Warrior|652|
 |Cleric|409|
-|Rogue|646|
+|Rogue|647|
 |Wizard|442|
 
 |Roll|Count|
 |-|-|
 |23|29
 |22|41
-|21|107
+|21|108
 |20|91
 |19|82
 |18|91
