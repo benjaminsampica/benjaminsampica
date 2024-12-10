@@ -9,14 +9,14 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)
 ### LAST ROLL BY
-[AlliedLens](https://www.github.com/AlliedLens) - as a warrior rolled a 17!
+[5-pebbles](https://www.github.com/5-pebbles) - as a wizard rolled a 13!
 
 |Class|Count|
 |-|-|
 |Warrior|682|
 |Cleric|418|
 |Rogue|690|
-|Wizard|480|
+|Wizard|481|
 
 |Roll|Count|
 |-|-|
@@ -30,7 +30,7 @@
 |16|102
 |15|117
 |14|89
-|13|114
+|13|115
 |12|123
 |11|109
 |10|111
