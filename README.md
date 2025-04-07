@@ -9,14 +9,14 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)
 ### LAST ROLL BY
-[CocoCastell](https://www.github.com/CocoCastell) - as a warrior rolled a 16!
+[Rashed-alothman](https://www.github.com/Rashed-alothman) - as a wizard rolled a 1!
 
 |Class|Count|
 |-|-|
 |Warrior|716|
 |Cleric|427|
 |Rogue|708|
-|Wizard|500|
+|Wizard|501|
 
 |Roll|Count|
 |-|-|
@@ -42,5 +42,5 @@
 |4|124
 |3|89
 |2|74
-|1|42
+|1|43
 |0|0
