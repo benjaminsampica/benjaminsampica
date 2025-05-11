@@ -38,7 +38,7 @@ const updateClassTableText = (databaseText) => {
         "|Wizard|" + getDatabaseValue(databaseText, "wizard") + "|\n";
 }
 const createClassLink = (chosenClass) => {
-    return `https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7C${chosenClass}&body=Just+click+%27Submit+new+issue%27.`;
+    return `https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7C${chosenClass}&body=Just+click+%27Create%27.`;
 }
 const updateRollTableText = (databaseText) => {
     readMeText += "|Roll|Count|\n" +
