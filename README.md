@@ -1,19 +1,19 @@
 # ROLL FOR INITIATIVE
 ### CHOOSE YOUR CLASS
 
-[Warrior | +1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwarrior&body=Just+click+%27Submit+new+issue%27.)
+[Warrior | +1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwarrior&body=Just+click+%27Create%27.)
 
-[Cleric | +1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Ccleric&body=Just+click+%27Submit+new+issue%27.)
+[Cleric | +1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Ccleric&body=Just+click+%27Create%27.)
 
-[Rogue | +3 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Crogue&body=Just+click+%27Submit+new+issue%27.)
+[Rogue | +3 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Crogue&body=Just+click+%27Create%27.)
 
-[Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Submit+new+issue%27.)
+[Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Create%27.)
 ### LAST ROLL BY
-[Canpaii](https://www.github.com/Canpaii) - as a wizard rolled a 8!
+[benjaminsampica](https://www.github.com/benjaminsampica) - as a warrior rolled a 14!
 
 |Class|Count|
 |-|-|
-|Warrior|720|
+|Warrior|721|
 |Cleric|428|
 |Rogue|713|
 |Wizard|507|
@@ -29,7 +29,7 @@
 |17|129
 |16|107
 |15|121
-|14|92
+|14|93
 |13|117
 |12|129
 |11|112
