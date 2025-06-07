@@ -9,14 +9,14 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Create%27.)
 ### LAST ROLL BY
-[Synapse-CodeX](https://www.github.com/Synapse-CodeX) - as a warrior rolled a 12!
+[ragibalasad](https://www.github.com/ragibalasad) - as a wizard rolled a 5!
 
 |Class|Count|
 |-|-|
 |Warrior|730|
 |Cleric|428|
 |Rogue|725|
-|Wizard|514|
+|Wizard|515|
 
 |Roll|Count|
 |-|-|
@@ -38,7 +38,7 @@
 |8|117
 |7|145
 |6|139
-|5|107
+|5|108
 |4|126
 |3|89
 |2|74
