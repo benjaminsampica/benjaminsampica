@@ -9,11 +9,11 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Create%27.)
 ### LAST ROLL BY
-[liamg2810](https://www.github.com/liamg2810) - as a rogue rolled a 7!
+[Azusa-chess](https://www.github.com/Azusa-chess) - as a warrior rolled a 8!
 
 |Class|Count|
 |-|-|
-|Warrior|735|
+|Warrior|736|
 |Cleric|430|
 |Rogue|733|
 |Wizard|517|
@@ -35,7 +35,7 @@
 |11|113
 |10|113
 |9|132
-|8|118
+|8|119
 |7|147
 |6|140
 |5|109
