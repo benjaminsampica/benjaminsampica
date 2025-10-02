@@ -9,19 +9,19 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Create%27.)
 ### LAST ROLL BY
-[Mahyar-Saberifard](https://www.github.com/Mahyar-Saberifard) - as a rogue rolled a 9!
+[Rakshit-gen](https://www.github.com/Rakshit-gen) - as a rogue rolled a 22!
 
 |Class|Count|
 |-|-|
 |Warrior|761|
 |Cleric|437|
-|Rogue|748|
+|Rogue|749|
 |Wizard|527|
 
 |Roll|Count|
 |-|-|
 |23|33
-|22|47
+|22|48
 |21|126
 |20|100
 |19|99
