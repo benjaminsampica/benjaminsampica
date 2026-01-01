@@ -9,14 +9,14 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Create%27.)
 ### LAST ROLL BY
-[Joe-Huber](https://www.github.com/Joe-Huber) - as a wizard rolled a 15!
+[Aries-Spring](https://www.github.com/Aries-Spring) - as a wizard rolled a 4!
 
 |Class|Count|
 |-|-|
 |Warrior|789|
 |Cleric|443|
 |Rogue|769|
-|Wizard|537|
+|Wizard|538|
 
 |Roll|Count|
 |-|-|
@@ -39,7 +39,7 @@
 |7|151
 |6|143
 |5|116
-|4|132
+|4|133
 |3|93
 |2|80
 |1|45
