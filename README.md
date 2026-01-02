@@ -9,14 +9,14 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Create%27.)
 ### LAST ROLL BY
-[Aries-Spring](https://www.github.com/Aries-Spring) - as a wizard rolled a 4!
+[EloiP](https://www.github.com/EloiP) - as a wizard rolled a 19!
 
 |Class|Count|
 |-|-|
 |Warrior|789|
 |Cleric|443|
 |Rogue|769|
-|Wizard|538|
+|Wizard|539|
 
 |Roll|Count|
 |-|-|
@@ -24,7 +24,7 @@
 |22|48
 |21|129
 |20|104
-|19|108
+|19|109
 |18|115
 |17|134
 |16|114
