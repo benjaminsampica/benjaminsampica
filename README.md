@@ -9,11 +9,11 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Create%27.)
 ### LAST ROLL BY
-[sahariq](https://www.github.com/sahariq) - as a rogue rolled a 12!
+[KshKsh0](https://www.github.com/KshKsh0) - as a warrior rolled a 14!
 
 |Class|Count|
 |-|-|
-|Warrior|791|
+|Warrior|792|
 |Cleric|446|
 |Rogue|776|
 |Wizard|544|
@@ -29,7 +29,7 @@
 |17|135
 |16|115
 |15|129
-|14|103
+|14|104
 |13|123
 |12|140
 |11|117
