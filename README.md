@@ -9,13 +9,13 @@
 
 [Wizard | -1 To Roll](https://github.com/benjaminsampica/benjaminsampica/issues/new?title=roll%7Cwizard&body=Just+click+%27Create%27.)
 ### LAST ROLL BY
-[Contraill](https://www.github.com/Contraill) - as a warrior rolled a 14!
+[SL-Hydra](https://www.github.com/SL-Hydra) - as a rogue rolled a 17!
 
 |Class|Count|
 |-|-|
 |Warrior|807|
 |Cleric|449|
-|Rogue|782|
+|Rogue|783|
 |Wizard|550|
 
 |Roll|Count|
@@ -26,7 +26,7 @@
 |20|108
 |19|110
 |18|117
-|17|137
+|17|138
 |16|117
 |15|130
 |14|106
